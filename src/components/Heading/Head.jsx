@@ -1,1 +1,0 @@
-export const Head = (props) => <h1>{props.heading}</h1>

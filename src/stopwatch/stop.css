@@ -1,0 +1,10 @@
+div{
+    font-size: xx-large;
+    text-align: center;
+}
+button{
+    margin: 10px;
+    background: #c9c4c4;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}

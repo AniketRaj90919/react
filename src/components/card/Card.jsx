@@ -1,13 +1,11 @@
-import "./Card.css";
-
-
- const Card = ({children}) =>{
+import "./Card.css"
+function Card ({children,onSubmit}){
     return(
-        <div id="card">
-            
-          {children}
-        </div>
-    )
+        <form id="Card" onSubmit={onSubmit}>
+        
+        {children}          
 
+        </form>
+    )
 }
-export default Card
+export default Card;

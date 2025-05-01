@@ -1,18 +1,23 @@
+import SignUp from "./components/SignUp/SignUp";
+import Login from "./components/Login/Login";
+import { MyForm } from "./components/Form/Form";
+import Timer from "./components/TimeInterval/interval";
+import Calculator from "./cal_ccomponent/calculator";
+import Stopwatch from "./stopwatch/stop";
 
-import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";  // Import the Index component from MyProfile file
-import './App.css';
-
-import { Login } from "./components/Login";
-import { Sign } from "./components/Sign";
 function App() {
   return (
-    <div>
-      <Login />
+        <>
+        
+      {/* <SignUp />    
+      <Login/> 
+      <Count/>
+      <MyForm /> 
+      <Timer /> 
+      <Calculator /> */} 
       
-    </div>
-    
-
+      <Stopwatch />
+    </>  
   );
 }
 

@@ -1,0 +1,13 @@
+#Button{
+    width: 248px;
+    height: 40px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    border-radius: 10px;
+    text-align: center;
+   
+    background-image: linear-gradient(to right, rgb(66, 66, 207),rgb(39, 39, 45));
+
+    color: rgb(255, 255, 255);
+}

@@ -1,0 +1,23 @@
+#TT{
+    width: 100px ;
+
+    margin-left: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(203, 203, 203);
+    background-color: #fff;
+    padding: 8px 0;
+   
+} 
+#TT span{
+   padding: 8px 38.6px;
+   height: 35px;
+   line-height: 35px;
+}
+
+#TT span:hover{
+    color: rgb(235, 235, 235);
+    border: 1px solid;
+    border-image: linear-gradient(to left, rgb(66, 66, 207),rgb(26, 26, 33));
+    background-image: linear-gradient(to left, rgb(66, 66, 207),rgb(26, 26, 33));
+    border-radius: 10px;
+}
