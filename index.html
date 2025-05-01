@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>SET TIMEOUT</h1>
+    <button onClick="setTimeout(settime,2000)" >touch me</button>
+    <script>
+        function settime (){
+            return alert("HEYY, ANIKET WHAT'S UP!");
+        }
+        let val =0;
+        function interval (){
+            val++;
+            document.write(val+"\t");
+        }
+        
+    </script>
+    <h1>SET TIME INTERVAL</h1>
+    
+    <button  onclick="setInterval(interval,1000)">START</button>
+</body>
+</html>
